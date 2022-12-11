@@ -1,10 +1,11 @@
 import cv2
 from arucomarkercalculate import ArucoMarkerCalculate
 from segmentation import segmentation
+import os
 
+img1_area = cv2.imread(os.getcwd() + "\\validate_algorith\\area.jpg")
+img2_width = cv2.imread(os.getcwd() + "\\validate_algorith\\comprimento.jpg")
 
-img1_area = cv2.imread('E:\\IFTO\\Topicos_2\\Projeto\\aruco_marker\\test_02\\measure_object_size\\src\\validate_algorith\\editado\\tst11.jpg')
-img2_width = cv2.imread('E:\\IFTO\\Topicos_2\\Projeto\\aruco_marker\\test_02\\measure_object_size\\src\\validate_algorith\\editado\\tst6.jpg')
 
 imgs = img1_area, img2_width
 
