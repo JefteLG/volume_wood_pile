@@ -15,53 +15,9 @@ if corners:
     width_pile = ArucoMarkerCalculate.calculate_width_pile(corners, img2_width)
     area_pile = ArucoMarkerCalculate.calculate_area(corners, pixel_white)
     volume_pile = area_pile * width_pile
-print("!!!")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# print(volume_pile)
-
-
-#     # get width
-#     object_width_pixel = cv2.selectROI("select the area", img1_area, showCrosshair=False)[2]
-#     aruco_perimeter = cv2.arcLength(corners[1][0], True)
-#     pixel_cm_ratio = aruco_perimeter/40
-#     object_width_cm = object_width_pixel/pixel_cm_ratio
-
-#     aruco_width_pixel = cv2.minAreaRect(corners[1][0])[1][0]
-#     cv2.polylines(img1_area, np.int0(corners[1][0]), True, (0, 255, 0), 2)
-#     aruco_width_cm = aruco_width_pixel / pixel_cm_ratio
-#     cv2.imshow("imagem", img1_area)
-#     key = cv2.waitKey(1)
-
-#     # get area
+    print("##########----RESULTADO----##########")
+    print("VOLUME DA PILHA")
+    volume_pile = f'{volume_pile:.2f}'
+    print(f'{float(volume_pile):,}cm3')
+    print("#####################################")
 
