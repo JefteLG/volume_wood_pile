@@ -6,7 +6,7 @@
 - Coloque o modelo no path `/model`.
 - Recomendo utilizar um ambiente virtual para instalar o modulos python e executar o script.
 
-> Nota: Eu utilizei o Anaconda para trabalhar com ambiente virtual caso queira usa-lo, siga o [Tutorial]().
+> Nota: Eu utilizei o Anaconda para trabalhar com ambiente virtual caso queira usa-lo, siga o [Tutorial](https://github.com/JefteLG/volume_wood_pile#configurando-o-ambiente-virtual).
 
 - Execute o requirements.txt.
 
